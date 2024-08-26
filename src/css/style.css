@@ -1,0 +1,66 @@
+main {
+
+    background-color: yellow;
+}
+.conteudo{
+    background-color: red;
+    width: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pictire-logo {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-inicial {
+    color: white;
+    font-size: 30px;
+}
+
+.descricao-principal{
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+}
+
+.descricao {
+    
+    margin-left: 26%;
+    padding: 2%;
+
+    
+}
+
+.picture-tasty {
+    width: 60%;
+    padding: none;
+    margin-left: -20%;
+}
+
+.combo {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.combos-disponiveis {
+    font-size: 12px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 15px;
+}
+
+.clique-aqui {
+    border: 3px solid red;
+    color: red;
+    border-radius: 5px;
+}
