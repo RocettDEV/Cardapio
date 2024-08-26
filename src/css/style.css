@@ -39,9 +39,8 @@ img {
 }
 
 .picture-tasty {
-    width: 60%;
-    padding: none;
-    margin-left: -20%;
+   width: 60%;
+   margin-left: -10vh;
 }
 
 .combo {
