@@ -1,7 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 main {
 
     background-color: yellow;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    background-color: yellow;
+    font-family: Bree Serif;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333
+}
+
+nav:hover {
+    background-color: red;
+}
+
 .conteudo{
     background-color: red;
     width: 100vh;
@@ -9,7 +47,7 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-.pictire-logo {
+.picture-logo {
     width: 30%;
     display: block;
     margin-left: auto;
@@ -19,11 +57,15 @@ main {
 .titulo-inicial {
     color: white;
     font-size: 30px;
+    font-family: Bebas Neue;
+
 }
 
 .descricao-principal{
     font-size: 12px;
     text-align: center;
+    font-family: Bebas Neue;
+    text-shadow: 100;
 }
 
 img {
@@ -34,6 +76,7 @@ img {
     
     margin-left: 26%;
     padding: 2%;
+    font-family: Poppins;
 
     
 }
@@ -47,19 +90,16 @@ img {
     text-align: center;
     color: white;
     font-size: 30px;
+    font-family: Bebas Neue;
 }
 
 .combos-disponiveis {
     font-size: 12px;
     text-align: center;
+    font-family: Bebas Neue;
 }
 
 .titulo {
     font-size: 15px;
 }
 
-.clique-aqui {
-    border: 3px solid red;
-    color: red;
-    border-radius: 5px;
-}
